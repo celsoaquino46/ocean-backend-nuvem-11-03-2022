@@ -7,7 +7,7 @@ const dbName = "ocean_bancodedados_100322";
 async function main() {
   // Conexão com o bando de dados
 
-  console.log("Conectando ao banco de dados...");
+  console.log("Conectando ao banco de dados....");
 
   const client = await MongoClient.connect(url);
 
